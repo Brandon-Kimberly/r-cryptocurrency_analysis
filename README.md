@@ -14,6 +14,8 @@ The code (and example data) needed to:
 ### main.py
 This file is the main driver of the whole project. Executing just this file will run all the code that is contained in this repository. Therefore, the purpose of this file can be summarized in the same way as the top of the README.
 
+This file needs to be provided an additional command line argument when executing it that signifies the number of weeks of past data to crawl through and send through the model for sentiment graphing.
+
 
 ### training_data_crawler.py
 In this file, the Python Reddit API Wrapper (PRAW) service is used to gather the last one thousand posts on Reddit.com/r/cryptocurrency and dump it to a JSON file. This data will be utilized in main.py to train the probabilistic classifier.
