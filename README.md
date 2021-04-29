@@ -4,6 +4,8 @@ The code (and example data) needed to:
   2. Create and train a naive Bayes classifier on the data.
   3. Graph the sentiment of the subreddit over time (and other informational graphs)
 
+**Data is included in this repository for both training the model, and sending a representative sample of the last year's worth of submissions on r/cryptocurrency through the model. Simply commment out the lines related to fetching data in main.py if you wish it to run the model with the example data.**
+
 
 ##  Description of each file
 
